@@ -1,0 +1,17 @@
+1. Implement a class with a member function 'int nobjs()' which returns the number of object
+of that class currently in existence. What assumptions have you made?
+
+2. Given:
+struct node_t
+{
+    unsigned v;
+    struct node_t* next;
+};
+
+A singly linked list of nodes is referred to by a pointer to the head node (the head pointer will be
+NULL in the case of an empty list).
+
+Write a function:
+struct node_t* even_nodes(struct node_t**)
+
+which is passed a pointer to the head pointer of a list. It should remove all n
